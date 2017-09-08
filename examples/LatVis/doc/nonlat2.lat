@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="2">
+<vertex>
+<x>-41</x>
+<y>-19</y>
+</vertex>
+</element>
+<element name="3">
+<vertex>
+<x>19</x>
+<y>-19</y>
+</vertex>
+</element>
+<element name="4">
+<vertex>
+<x>-41</x>
+<y>35</y>
+</vertex>
+</element>
+<element name="9">
+<vertex>
+<x>19</x>
+<y>35</y>
+</vertex>
+</element>
+</elements>
+</ordered_set>

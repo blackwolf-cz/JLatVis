@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="0">
+<vertex>
+<x>0</x>
+<y>0</y>
+</vertex>
+</element>
+<element name="1">
+<vertex dummy_id="1">
+<x>60</x>
+<y>60</y>
+</vertex>
+</element>
+<element name="2">
+<vertex dummy_id="4">
+<x>120</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="3">
+<vertex>
+<x>0</x>
+<y>60</y>
+</vertex>
+</element>
+<element name="4">
+<vertex dummy_id="7">
+<x>0</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="5">
+<vertex>
+<x>-60</x>
+<y>60</y>
+</vertex>
+</element>
+<element name="6">
+<vertex>
+<x>-120</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="7">
+<vertex dummy_id="3">
+<x>-90</x>
+<y>180</y>
+</vertex>
+</element>
+<element name="8">
+<vertex dummy_id="9">
+<x>-60</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="9">
+<vertex dummy_id="6">
+<x>0</x>
+<y>240</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="0"/>
+<element name="1"/>
+</order>
+<order>
+<element name="0"/>
+<element name="3"/>
+</order>
+<order>
+<element name="0"/>
+<element name="5"/>
+</order>
+<order>
+<element name="1"/>
+<element name="2"/>
+</order>
+<order>
+<element name="1"/>
+<element name="4"/>
+</order>
+<order>
+<element name="1"/>
+<element name="7"/>
+</order>
+<order>
+<element name="2"/>
+<element name="9"/>
+</order>
+<order>
+<element name="3"/>
+<element name="4"/>
+</order>
+<order>
+<element name="3"/>
+<element name="8"/>
+</order>
+<order>
+<element name="4"/>
+<element name="9"/>
+</order>
+<order>
+<element name="5"/>
+<element name="6"/>
+</order>
+<order>
+<element name="5"/>
+<element name="8"/>
+</order>
+<order>
+<element name="6"/>
+<element name="7"/>
+</order>
+<order>
+<element name="7"/>
+<element name="9"/>
+</order>
+<order>
+<element name="8"/>
+<element name="9"/>
+</order>
+</orders>
+<diagram>
+<dummies>
+<dummy id="2">
+<x>60</x>
+<y>120</y>
+</dummy>
+<dummy id="5">
+<x>90</x>
+<y>180</y>
+</dummy>
+<dummy id="8">
+<x>30</x>
+<y>180</y>
+</dummy>
+<dummy id="10">
+<x>-30</x>
+<y>180</y>
+</dummy>
+</dummies>
+<edges>
+<edge>
+<dummy id="2"/>
+<dummy id="3"/>
+</edge>
+<edge>
+<dummy id="5"/>
+<dummy id="6"/>
+</edge>
+<edge>
+<dummy id="8"/>
+<dummy id="6"/>
+</edge>
+<edge>
+<dummy id="10"/>
+<dummy id="6"/>
+</edge>
+<edge>
+<dummy id="1"/>
+<dummy id="2"/>
+</edge>
+<edge>
+<dummy id="4"/>
+<dummy id="5"/>
+</edge>
+<edge>
+<dummy id="7"/>
+<dummy id="8"/>
+</edge>
+<edge>
+<dummy id="9"/>
+<dummy id="10"/>
+</edge>
+</edges>
+</diagram>
+</ordered_set>

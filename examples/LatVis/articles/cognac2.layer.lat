@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="1">
+<vertex dummy_id="3">
+<x>0</x>
+<y>540</y>
+</vertex>
+</element>
+<element name="2">
+<vertex>
+<x>60</x>
+<y>480</y>
+</vertex>
+</element>
+<element name="3">
+<vertex dummy_id="8">
+<x>-60</x>
+<y>480</y>
+</vertex>
+</element>
+<element name="4">
+<vertex dummy_id="1">
+<x>0</x>
+<y>420</y>
+</vertex>
+</element>
+<element name="5">
+<vertex>
+<x>60</x>
+<y>420</y>
+</vertex>
+</element>
+<element name="6">
+<vertex>
+<x>60</x>
+<y>360</y>
+</vertex>
+</element>
+<element name="7">
+<vertex>
+<x>0</x>
+<y>360</y>
+</vertex>
+</element>
+<element name="8">
+<vertex dummy_id="4">
+<x>-60</x>
+<y>240</y>
+</vertex>
+</element>
+<element name="9">
+<vertex dummy_id="12">
+<x>60</x>
+<y>300</y>
+</vertex>
+</element>
+<element name="10">
+<vertex>
+<x>0</x>
+<y>300</y>
+</vertex>
+</element>
+<element name="11">
+<vertex>
+<x>0</x>
+<y>240</y>
+</vertex>
+</element>
+<element name="12">
+<vertex>
+<x>0</x>
+<y>180</y>
+</vertex>
+</element>
+<element name="13">
+<vertex>
+<x>-60</x>
+<y>180</y>
+</vertex>
+</element>
+<element name="15">
+<vertex>
+<x>0</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="16">
+<vertex>
+<x>-60</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="14">
+<vertex dummy_id="9">
+<x>60</x>
+<y>120</y>
+</vertex>
+</element>
+<element name="17">
+<vertex>
+<x>0</x>
+<y>60</y>
+</vertex>
+</element>
+<element name="0">
+<vertex>
+<x>0</x>
+<y>0</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="2"/>
+<element name="1"/>
+</order>
+<order>
+<element name="3"/>
+<element name="1"/>
+</order>
+<order>
+<element name="4"/>
+<element name="1"/>
+</order>
+<order>
+<element name="5"/>
+<element name="2"/>
+</order>
+<order>
+<element name="5"/>
+<element name="3"/>
+</order>
+<order>
+<element name="6"/>
+<element name="5"/>
+</order>
+<order>
+<element name="7"/>
+<element name="4"/>
+</order>
+<order>
+<element name="7"/>
+<element name="5"/>
+</order>
+<order>
+<element name="8"/>
+<element name="3"/>
+</order>
+<order>
+<element name="9"/>
+<element name="6"/>
+</order>
+<order>
+<element name="10"/>
+<element name="6"/>
+</order>
+<order>
+<element name="10"/>
+<element name="7"/>
+</order>
+<order>
+<element name="11"/>
+<element name="9"/>
+</order>
+<order>
+<element name="11"/>
+<element name="10"/>
+</order>
+<order>
+<element name="12"/>
+<element name="11"/>
+</order>
+<order>
+<element name="13"/>
+<element name="8"/>
+</order>
+<order>
+<element name="13"/>
+<element name="11"/>
+</order>
+<order>
+<element name="15"/>
+<element name="12"/>
+</order>
+<order>
+<element name="16"/>
+<element name="12"/>
+</order>
+<order>
+<element name="16"/>
+<element name="13"/>
+</order>
+<order>
+<element name="14"/>
+<element name="9"/>
+</order>
+<order>
+<element name="17"/>
+<element name="15"/>
+</order>
+<order>
+<element name="17"/>
+<element name="16"/>
+</order>
+<order>
+<element name="17"/>
+<element name="14"/>
+</order>
+<order>
+<element name="0"/>
+<element name="17"/>
+</order>
+</orders>
+<diagram>
+<dummies>
+<dummy id="2">
+<x>0</x>
+<y>480</y>
+</dummy>
+<dummy id="5">
+<x>-60</x>
+<y>300</y>
+</dummy>
+<dummy id="6">
+<x>-60</x>
+<y>360</y>
+</dummy>
+<dummy id="7">
+<x>-60</x>
+<y>420</y>
+</dummy>
+<dummy id="10">
+<x>60</x>
+<y>180</y>
+</dummy>
+<dummy id="11">
+<x>60</x>
+<y>240</y>
+</dummy>
+</dummies>
+<edges>
+<edge>
+<dummy id="2"/>
+<dummy id="3"/>
+</edge>
+<edge>
+<dummy id="5"/>
+<dummy id="6"/>
+</edge>
+<edge>
+<dummy id="6"/>
+<dummy id="7"/>
+</edge>
+<edge>
+<dummy id="7"/>
+<dummy id="8"/>
+</edge>
+<edge>
+<dummy id="10"/>
+<dummy id="11"/>
+</edge>
+<edge>
+<dummy id="11"/>
+<dummy id="12"/>
+</edge>
+<edge>
+<dummy id="1"/>
+<dummy id="2"/>
+</edge>
+<edge>
+<dummy id="4"/>
+<dummy id="5"/>
+</edge>
+<edge>
+<dummy id="9"/>
+<dummy id="10"/>
+</edge>
+</edges>
+</diagram>
+</ordered_set>

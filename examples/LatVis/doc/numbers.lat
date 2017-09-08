@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="1">
+<vertex>
+<x>-18</x>
+<y>11</y>
+</vertex>
+</element>
+<element name="2">
+<vertex>
+<x>33</x>
+<y>13</y>
+</vertex>
+</element>
+<element name="3">
+<vertex>
+<x>-18</x>
+<y>61</y>
+</vertex>
+</element>
+<element name="4">
+<vertex>
+<x>32</x>
+<y>61</y>
+</vertex>
+</element>
+<element name="5">
+<vertex>
+<x>-67</x>
+<y>61</y>
+</vertex>
+</element>
+<element name="6">
+<vertex>
+<x>90</x>
+<y>61</y>
+</vertex>
+</element>
+<element name="7">
+<vertex>
+<x>83</x>
+<y>112</y>
+</vertex>
+</element>
+<element name="8">
+<vertex>
+<x>32</x>
+<y>111</y>
+</vertex>
+</element>
+<element name="9">
+<vertex>
+<x>-67</x>
+<y>108</y>
+</vertex>
+</element>
+<element name="10">
+<vertex>
+<x>-18</x>
+<y>110</y>
+</vertex>
+</element>
+<element name="11">
+<vertex>
+<x>31</x>
+<y>159</y>
+</vertex>
+</element>
+<element name="12">
+<vertex>
+<x>-18</x>
+<y>157</y>
+</vertex>
+</element>
+<element name="13">
+<vertex>
+<x>31</x>
+<y>206</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="3"/>
+<element name="1"/>
+</order>
+<order>
+<element name="5"/>
+<element name="3"/>
+</order>
+<order>
+<element name="4"/>
+<element name="1"/>
+</order>
+<order>
+<element name="6"/>
+<element name="4"/>
+</order>
+<order>
+<element name="7"/>
+<element name="4"/>
+</order>
+<order>
+<element name="8"/>
+<element name="3"/>
+</order>
+<order>
+<element name="8"/>
+<element name="4"/>
+</order>
+<order>
+<element name="9"/>
+<element name="4"/>
+</order>
+<order>
+<element name="9"/>
+<element name="5"/>
+</order>
+<order>
+<element name="10"/>
+<element name="3"/>
+</order>
+<order>
+<element name="10"/>
+<element name="8"/>
+</order>
+<order>
+<element name="11"/>
+<element name="7"/>
+</order>
+<order>
+<element name="11"/>
+<element name="10"/>
+</order>
+<order>
+<element name="12"/>
+<element name="9"/>
+</order>
+<order>
+<element name="12"/>
+<element name="10"/>
+</order>
+<order>
+<element name="13"/>
+<element name="11"/>
+</order>
+<order>
+<element name="13"/>
+<element name="12"/>
+</order>
+</orders>
+</ordered_set>

@@ -1,0 +1,1030 @@
+<LatVis version="2.0">
+
+	<Lattices>
+
+		<Lattice			><Name>null</Name>
+
+
+
+			<Elements>
+
+				<Element id="1" name="u1">
+
+					<Tag						 id="1"><Name>p1</Name>
+
+						<Text>uzel 1</Text>
+
+					</Tag>
+
+				</Element>
+
+				<Element id="2" name="u2">
+
+					<Tag						 id="1"><Name>p2</Name>
+
+						<Text>uzel 2</Text>
+
+					</Tag>
+
+				</Element>
+
+				<Element id="3" name="u3">
+
+					<Tag						 id="1"><Name>p3</Name>
+
+						<Text>uzel 3</Text>
+
+					</Tag>
+
+				</Element>
+
+				<Element id="4" name="u4">
+
+					<Tag						 id="1"><Name>p4</Name>
+
+						<Text>uzel 4</Text>
+
+					</Tag>
+
+				</Element>
+
+				<Element id="5" name="u5"/>
+
+			</Elements>
+
+			<Order>
+
+				<Pair greater="1" less="2"/>
+
+				<Pair greater="2" less="4"/>
+
+				<Pair greater="3" less="2"/>
+
+				<Pair greater="5" less="1"/>
+
+				<Pair greater="5" less="3"/>
+
+			</Order>
+
+			<Diagram>
+
+				<Verteces>
+
+					<Vertex						 id="1"><X>218</X>
+
+						<Y>111</Y>
+
+
+
+						<Tag id="1">
+
+							<Style>
+
+								<Shape									><Color>-256</Color>
+
+									<Width>100</Width>
+
+									<Height>50</Height>
+
+									<Angle>45</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Line>
+
+								<Visible>true</Visible>
+
+								<DistanceFromNode>30.0</DistanceFromNode>
+
+								<AngleFromHoriz>280.0</AngleFromHoriz>
+
+								<LineTo>CENTER</LineTo>
+
+								<LineStartDist>0</LineStartDist>
+
+							</Style>
+
+						</Tag>
+
+						<Style>
+
+							<Shape								><Color>-16777216</Color>
+
+								<Width>20</Width>
+
+								<Height>20</Height>
+
+								<Angle>0</Angle>
+
+							</Shape>
+
+							<Border								><Color>-16777216</Color>
+
+								<Width>1</Width>
+
+
+
+								<Dashing/>
+
+							</Border>
+
+							<Text								><Color>-16777216</Color>
+
+
+
+								<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+								<Alignment>LEFT</Alignment>
+
+							</Text>
+
+							<NodeType>ELLIPSE</NodeType>
+
+							<Visible>true</Visible>
+
+							<NameVisible>false</NameVisible>
+
+							<Special/>
+
+							<NodeName>
+
+								<Shape									><Color>-1</Color>
+
+									<Width>5</Width>
+
+									<Height>0</Height>
+
+									<Angle>0</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>0</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing										><Segment>4.0</Segment>
+
+										<Segment>3.0</Segment>
+
+									</Dashing>
+
+								</Line>
+
+								<DistanceFromNode>20.0</DistanceFromNode>
+
+								<AngleFromHoriz>20.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>5</LineStartDist>
+
+								<NameOutside>true</NameOutside>
+
+								<MinLineDist>10</MinLineDist>
+
+							</NodeName>
+
+						</Style>
+
+					</Vertex>
+
+					<Vertex						 id="2"><X>130</X>
+
+						<Y>193</Y>
+
+
+
+						<Tag id="1">
+
+							<Style>
+
+								<Shape									><Color>-256</Color>
+
+									<Width>100</Width>
+
+									<Height>50</Height>
+
+									<Angle>45</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Line>
+
+								<Visible>true</Visible>
+
+								<DistanceFromNode>30.0</DistanceFromNode>
+
+								<AngleFromHoriz>320.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>0</LineStartDist>
+
+							</Style>
+
+						</Tag>
+
+						<Style>
+
+							<Shape								><Color>-16777216</Color>
+
+								<Width>20</Width>
+
+								<Height>20</Height>
+
+								<Angle>0</Angle>
+
+							</Shape>
+
+							<Border								><Color>-16777216</Color>
+
+								<Width>1</Width>
+
+
+
+								<Dashing/>
+
+							</Border>
+
+							<Text								><Color>-16777216</Color>
+
+
+
+								<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+								<Alignment>LEFT</Alignment>
+
+							</Text>
+
+							<NodeType>ELLIPSE</NodeType>
+
+							<Visible>true</Visible>
+
+							<NameVisible>false</NameVisible>
+
+							<Special/>
+
+							<NodeName>
+
+								<Shape									><Color>-1</Color>
+
+									<Width>5</Width>
+
+									<Height>0</Height>
+
+									<Angle>0</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>0</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing										><Segment>4.0</Segment>
+
+										<Segment>3.0</Segment>
+
+									</Dashing>
+
+								</Line>
+
+								<DistanceFromNode>20.0</DistanceFromNode>
+
+								<AngleFromHoriz>20.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>5</LineStartDist>
+
+								<NameOutside>true</NameOutside>
+
+								<MinLineDist>10</MinLineDist>
+
+							</NodeName>
+
+						</Style>
+
+					</Vertex>
+
+					<Vertex						 id="3"><X>65</X>
+
+						<Y>103</Y>
+
+
+
+						<Tag id="1">
+
+							<Style>
+
+								<Shape									><Color>-256</Color>
+
+									<Width>100</Width>
+
+									<Height>50</Height>
+
+									<Angle>45</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Line>
+
+								<Visible>true</Visible>
+
+								<DistanceFromNode>30.0</DistanceFromNode>
+
+								<AngleFromHoriz>280.0</AngleFromHoriz>
+
+								<LineTo>CENTER</LineTo>
+
+								<LineStartDist>0</LineStartDist>
+
+							</Style>
+
+						</Tag>
+
+						<Style>
+
+							<Shape								><Color>-16777216</Color>
+
+								<Width>20</Width>
+
+								<Height>20</Height>
+
+								<Angle>0</Angle>
+
+							</Shape>
+
+							<Border								><Color>-16777216</Color>
+
+								<Width>1</Width>
+
+
+
+								<Dashing/>
+
+							</Border>
+
+							<Text								><Color>-16777216</Color>
+
+
+
+								<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+								<Alignment>LEFT</Alignment>
+
+							</Text>
+
+							<NodeType>ELLIPSE</NodeType>
+
+							<Visible>true</Visible>
+
+							<NameVisible>false</NameVisible>
+
+							<Special/>
+
+							<NodeName>
+
+								<Shape									><Color>-1</Color>
+
+									<Width>5</Width>
+
+									<Height>0</Height>
+
+									<Angle>0</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>0</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing										><Segment>4.0</Segment>
+
+										<Segment>3.0</Segment>
+
+									</Dashing>
+
+								</Line>
+
+								<DistanceFromNode>20.0</DistanceFromNode>
+
+								<AngleFromHoriz>20.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>5</LineStartDist>
+
+								<NameOutside>true</NameOutside>
+
+								<MinLineDist>10</MinLineDist>
+
+							</NodeName>
+
+						</Style>
+
+					</Vertex>
+
+					<Vertex						 id="4"><X>130</X>
+
+						<Y>287</Y>
+
+
+
+						<Tag id="1">
+
+							<Style>
+
+								<Shape									><Color>-256</Color>
+
+									<Width>100</Width>
+
+									<Height>50</Height>
+
+									<Angle>45</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing/>
+
+								</Line>
+
+								<Visible>true</Visible>
+
+								<DistanceFromNode>30.0</DistanceFromNode>
+
+								<AngleFromHoriz>280.0</AngleFromHoriz>
+
+								<LineTo>CENTER</LineTo>
+
+								<LineStartDist>0</LineStartDist>
+
+							</Style>
+
+						</Tag>
+
+						<Style>
+
+							<Shape								><Color>-16777216</Color>
+
+								<Width>20</Width>
+
+								<Height>20</Height>
+
+								<Angle>0</Angle>
+
+							</Shape>
+
+							<Border								><Color>-16777216</Color>
+
+								<Width>1</Width>
+
+
+
+								<Dashing/>
+
+							</Border>
+
+							<Text								><Color>-16777216</Color>
+
+
+
+								<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+								<Alignment>LEFT</Alignment>
+
+							</Text>
+
+							<NodeType>ELLIPSE</NodeType>
+
+							<Visible>true</Visible>
+
+							<NameVisible>false</NameVisible>
+
+							<Special/>
+
+							<NodeName>
+
+								<Shape									><Color>-1</Color>
+
+									<Width>5</Width>
+
+									<Height>0</Height>
+
+									<Angle>0</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>0</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing										><Segment>4.0</Segment>
+
+										<Segment>3.0</Segment>
+
+									</Dashing>
+
+								</Line>
+
+								<DistanceFromNode>20.0</DistanceFromNode>
+
+								<AngleFromHoriz>20.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>5</LineStartDist>
+
+								<NameOutside>true</NameOutside>
+
+								<MinLineDist>10</MinLineDist>
+
+							</NodeName>
+
+						</Style>
+
+					</Vertex>
+
+					<Vertex						 id="5"><X>130</X>
+
+						<Y>39</Y>
+
+
+
+						<Style>
+
+							<Shape								><Color>-16777216</Color>
+
+								<Width>20</Width>
+
+								<Height>20</Height>
+
+								<Angle>0</Angle>
+
+							</Shape>
+
+							<Border								><Color>-16777216</Color>
+
+								<Width>1</Width>
+
+
+
+								<Dashing/>
+
+							</Border>
+
+							<Text								><Color>-16777216</Color>
+
+
+
+								<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+								<Alignment>LEFT</Alignment>
+
+							</Text>
+
+							<NodeType>ELLIPSE</NodeType>
+
+							<Visible>true</Visible>
+
+							<NameVisible>false</NameVisible>
+
+							<Special/>
+
+							<NodeName>
+
+								<Shape									><Color>-1</Color>
+
+									<Width>5</Width>
+
+									<Height>0</Height>
+
+									<Angle>0</Angle>
+
+								</Shape>
+
+								<Border									><Color>-16777216</Color>
+
+									<Width>0</Width>
+
+
+
+									<Dashing/>
+
+								</Border>
+
+								<Text									><Color>-16777216</Color>
+
+
+
+									<Font size="12" bold="false" italic="false" underline="false">SansSerif</Font>
+
+									<Alignment>LEFT</Alignment>
+
+								</Text>
+
+								<Line									><Color>-16777216</Color>
+
+									<Width>1</Width>
+
+
+
+									<Dashing										><Segment>4.0</Segment>
+
+										<Segment>3.0</Segment>
+
+									</Dashing>
+
+								</Line>
+
+								<DistanceFromNode>20.0</DistanceFromNode>
+
+								<AngleFromHoriz>20.0</AngleFromHoriz>
+
+								<LineTo>CORNER</LineTo>
+
+								<LineStartDist>5</LineStartDist>
+
+								<NameOutside>true</NameOutside>
+
+								<MinLineDist>10</MinLineDist>
+
+							</NodeName>
+
+						</Style>
+
+					</Vertex>
+
+				</Verteces>
+
+				<Edges>
+
+					<Edge from="5" to="1">
+
+						<Style							><Color>-16777216</Color>
+
+							<Width>1</Width>
+
+
+
+							<Dashing/>
+
+							<Visible>true</Visible>
+
+							<DistanceFromNode>5</DistanceFromNode>
+
+						</Style>
+
+					</Edge>
+
+					<Edge from="5" to="3">
+
+						<Style							><Color>-16777216</Color>
+
+							<Width>1</Width>
+
+
+
+							<Dashing/>
+
+							<Visible>true</Visible>
+
+							<DistanceFromNode>5</DistanceFromNode>
+
+						</Style>
+
+					</Edge>
+
+					<Edge from="1" to="2">
+
+						<Style							><Color>-16777216</Color>
+
+							<Width>1</Width>
+
+
+
+							<Dashing/>
+
+							<Visible>true</Visible>
+
+							<DistanceFromNode>5</DistanceFromNode>
+
+						</Style>
+
+					</Edge>
+
+					<Edge from="3" to="2">
+
+						<Style							><Color>-16777216</Color>
+
+							<Width>1</Width>
+
+
+
+							<Dashing/>
+
+							<Visible>true</Visible>
+
+							<DistanceFromNode>5</DistanceFromNode>
+
+						</Style>
+
+					</Edge>
+
+					<Edge from="2" to="4">
+
+						<Style							><Color>-16777216</Color>
+
+							<Width>1</Width>
+
+
+
+							<Dashing/>
+
+							<Visible>true</Visible>
+
+							<DistanceFromNode>5</DistanceFromNode>
+
+						</Style>
+
+					</Edge>
+
+				</Edges>
+
+				<Style					><BackgroundColor>-1</BackgroundColor>
+
+				</Style>
+
+			</Diagram>
+
+		</Lattice>
+
+	</Lattices>
+
+	<AppSpecificData>
+
+		<Selection/>
+
+		<SearchResults/>
+
+		<SavedSelections>
+
+			<Selection				><Name>aaa</Name>
+
+				<Node>4</Node>
+
+				<Tag>p3</Tag>
+
+			</Selection>
+
+			<Selection				><Name>bbb</Name>
+
+				<Node>1</Node>
+
+
+
+				<Edge u1="5" u2="1"/>
+
+				<Node>5</Node>
+
+			</Selection>
+
+		</SavedSelections>
+
+		<Guidelines>
+
+			<Style				><Color>-3355444</Color>
+
+				<Width>1</Width>
+
+
+
+				<Dashing/>
+
+				<ShowGrid>false</ShowGrid>
+
+				<ShowEdge>false</ShowEdge>
+
+				<ShowParallel>false</ShowParallel>
+
+				<SpacingHoriz>30</SpacingHoriz>
+
+				<SpacingVert>30</SpacingVert>
+
+				<Angle>0</Angle>
+
+				<StickingDist>5</StickingDist>
+
+				<Grid>true</Grid>
+
+				<OnlyIntersec>false</OnlyIntersec>
+
+			</Style>
+
+			<CenterPoint x="0.0" y="0.0"/>
+
+		</Guidelines>
+
+		<Zoom>1.0</Zoom>
+
+	</AppSpecificData>
+
+</LatVis>
+

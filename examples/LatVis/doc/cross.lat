@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="1">
+<vertex>
+<x>-41</x>
+<y>-18</y>
+</vertex>
+</element>
+<element name="2">
+<vertex>
+<x>3</x>
+<y>-18</y>
+</vertex>
+</element>
+<element name="3">
+<vertex>
+<x>47</x>
+<y>-18</y>
+</vertex>
+</element>
+<element name="4">
+<vertex>
+<x>92</x>
+<y>-17</y>
+</vertex>
+</element>
+<element name="5">
+<vertex>
+<x>140</x>
+<y>-18</y>
+</vertex>
+</element>
+<element name="6">
+<vertex>
+<x>189</x>
+<y>-19</y>
+</vertex>
+</element>
+<element name="7">
+<vertex>
+<x>236</x>
+<y>-20</y>
+</vertex>
+</element>
+<element name="p">
+<vertex>
+<x>-41</x>
+<y>51</y>
+</vertex>
+</element>
+<element name="q">
+<vertex>
+<x>47</x>
+<y>52</y>
+</vertex>
+</element>
+<element name="u">
+<vertex>
+<x>140</x>
+<y>52</y>
+</vertex>
+</element>
+<element name="r">
+<vertex>
+<x>236</x>
+<y>51</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="1"/>
+<element name="p"/>
+</order>
+<order>
+<element name="1"/>
+<element name="u"/>
+</order>
+<order>
+<element name="2"/>
+<element name="q"/>
+</order>
+<order>
+<element name="3"/>
+<element name="q"/>
+</order>
+<order>
+<element name="3"/>
+<element name="r"/>
+</order>
+<order>
+<element name="4"/>
+<element name="p"/>
+</order>
+<order>
+<element name="4"/>
+<element name="q"/>
+</order>
+<order>
+<element name="4"/>
+<element name="r"/>
+</order>
+<order>
+<element name="5"/>
+<element name="u"/>
+</order>
+<order>
+<element name="6"/>
+<element name="u"/>
+</order>
+<order>
+<element name="7"/>
+<element name="q"/>
+</order>
+<order>
+<element name="7"/>
+<element name="u"/>
+</order>
+</orders>
+</ordered_set>

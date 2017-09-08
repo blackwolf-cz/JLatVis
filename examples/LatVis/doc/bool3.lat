@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="0">
+<vertex>
+<x>0</x>
+<y>-180</y>
+</vertex>
+</element>
+<element name="b">
+<vertex>
+<x>0</x>
+<y>-120</y>
+</vertex>
+</element>
+<element name="a">
+<vertex>
+<x>-60</x>
+<y>-120</y>
+</vertex>
+</element>
+<element name="c">
+<vertex>
+<x>60</x>
+<y>-120</y>
+</vertex>
+</element>
+<element name="d">
+<vertex>
+<x>-60</x>
+<y>-60</y>
+</vertex>
+</element>
+<element name="f">
+<vertex>
+<x>60</x>
+<y>-60</y>
+</vertex>
+</element>
+<element name="e">
+<vertex>
+<x>0</x>
+<y>-60</y>
+</vertex>
+</element>
+<element name="1">
+<vertex>
+<x>0</x>
+<y>0</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="0"/>
+<element name="b"/>
+</order>
+<order>
+<element name="0"/>
+<element name="a"/>
+</order>
+<order>
+<element name="0"/>
+<element name="c"/>
+</order>
+<order>
+<element name="b"/>
+<element name="d"/>
+</order>
+<order>
+<element name="b"/>
+<element name="f"/>
+</order>
+<order>
+<element name="a"/>
+<element name="d"/>
+</order>
+<order>
+<element name="a"/>
+<element name="e"/>
+</order>
+<order>
+<element name="c"/>
+<element name="f"/>
+</order>
+<order>
+<element name="c"/>
+<element name="e"/>
+</order>
+<order>
+<element name="d"/>
+<element name="1"/>
+</order>
+<order>
+<element name="f"/>
+<element name="1"/>
+</order>
+<order>
+<element name="e"/>
+<element name="1"/>
+</order>
+</orders>
+</ordered_set>

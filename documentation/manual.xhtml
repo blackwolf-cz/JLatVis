@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>JLatVis - user manual</title>
+        <meta name="author" content="Michal Kandr www.michalkandr.cz michal@kandr.name" xml:lang="cs" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<meta http-equiv="content-language" content="cs" />
+        <style type="text/css">
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body { 
+  line-height: 1.5; 
+}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+
+/* Remove possible quote marks (") from q, blockquote. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* Remove annoying border on linked images. */
+a img { border: none; }
+            
+            
+body { font:75%/1.5em Arial, Helvetica, sans-serif;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+ }
+
+p { padding:0 0 1.5em 1em;color:#111; word-spacing:0.08em;   letter-spacing:0.03em; }
+p img       { float: left; margin: 0 1em 1em 0; padding: 0; }
+p img.right { float: right; margin: 0 0 1em 1em;  }
+
+h1,h2{ font-weight:normal; color: #333; font-family:Georgia, "Times New Roman", serif; letter-spacing: 2px; word-spacing:0.1em;  }
+h3,h4,h5,h6 { font-weight: normal; color: #333; font-family:Georgia, "Times New Roman", serif; }
+
+
+h1 { font-size: 2.2em;  margin-bottom: 1.5em; }
+h2 { font-size: 1.9em;  margin-bottom: 0.79em; }
+h3 { font-size: 1.7em;  margin-bottom: 0.882em; }
+h4 { font-size: 1.4em;  margin-bottom: 1.071em; }
+h5 { font-size: 1.3em;  margin-bottom: 1.154em; }
+h6 { font-size: 1.1em;  margin-bottom: 1.154em; }
+
+
+ul, ol { padding: 0 0 1.5em 2em; }
+li ul, 
+li ol  { margin: 0 1.5em; padding: 0; }
+ul, ol { margin: 0 1.5em 1.5em 0; }
+li { margin: 0.2em 0; }
+
+
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; }
+dl dd { margin-left: 1.5em; }
+
+a { color: #035292; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+table {  margin-bottom: 1.5em; border-collapse: collapse; }
+th {font-weight: bold; }
+tr, th, td { margin:0; padding:0 1.5em 0 1em; height:18px; }
+tfoot { font-style: italic;  }
+caption { text-align:center; font-family:Georgia, serif;  }
+
+
+abbr, acronym { border-bottom: 1px dotted #000; }
+address { margin-top: 1.5em; font-style: italic; }
+del { color: #000; }
+
+
+blockquote { padding-left:1.5em; margin: 1.5em; border-left:3px solid #ccc; font-style:italic;  }
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+dfn { font-weight: bold; }
+pre, code { margin: 1.5em 0; white-space: pre; }
+pre, code, tt { font: 1em monospace; line-height: 1.5; } 
+tt { display: block; margin: 1.5em 0; }
+hr {margin-bottom:1.5em;}
+
+
+body { vertical-align: middle; }
+
+#content { width: 780px; margin: 0 auto; padding: 40px 30px 20px; text-align: left; border: 1px #000 solid; }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+        <h1>JLatVis - uživatelský manuál</h1>
+        <h2>Instalace programu a požadavky</h2>
+        <p>Instalace programu je jednoduchá – stačí rozbalit archiv s programem do požadované složky, více není třeba dělat.</p>
+        <p>Jediným požadavkem pro spuštění je nainstalovaná <a href="http://www.java.com"><strong>Java verze 1.6 nebo vyšší</strong></a>.</p>
+        <p>Nároky na hardware nebyly testovány, ale neměl by být problém s provozem na jakémkoliv moderním počítači.</p>
+        <h2>Hlavní okno</h2>
+        <h3>Titulkový pruh</h3>
+        <p>V titulkovém pruhu je zobrazen název souboru, je-li nějaký otevřen, který může být následován hvězdičkou v případě, že byly provedeny nějaké změny, které nebyly uloženy.</p>
+        <h3>Menu</h3>
+        <p>Hlavní menu aplikace pomocí kterého lze ovládat všechny funkce. Popis dostupných funkcí bude uveden níže v kapitole <a href="#main-menu">Hlavní menu</a>.</p>
+        <h3>Kreslící plocha</h3>
+        <p>Největší část hlavního okna zabírá kreslící plocha, na které je zobrazen diagram svazu. Přímo na ploše lze provádět se svazem různé operace (posouvání, označování atp.), které budou detailně popsány v kapitole <a href="#lattice-manipulation">Manipulace se svazem</a>.</p>
+        <h3>Status bar</h3>
+        <p>Pruh ve spodní části programu, ve kterém jsou zobrazeny souřadnice aktuální pozice kurzoru v souřadném systému svazu. Počátek soustavy souřadnic je v levém horním rohu.</p>
+        <h2 id="lattice-manipulation">Manipulace se svazem</h2>
+        <h3>Označování prvků</h3>
+        <p>Ruční označení prvků svazu je možné provést buď jednotlivě kliknutím na označovaný prvek (označit více prvků je možné podržením klávesy <em>Ctrl</em> a kliknutím), nebo hromadně kliknutím a tažením myši (volný výběr).</p>
+        <p>Při volném výběru budou vybrány všechny prvky obsažené v obdélníku vzniklém tažením myši. Které prvky to budou (uzly, tagy nebo hrany) lze nastavit v menu <a href="#free-selection">Selection -&gt; Free selection…</a>, ve výchozím nastavení se vybírají jen uzly.</p>
+        <p>Prvky je možné také označovat programově podle výsledků vyhledávání nebo zvýraznění, podrobnosti viz popis příslušných funkcí v kapitole <a href="#main-menu">Hlavní menu</a>.</p>
+        <h3>Zvýraznění prvků (Highlight)</h3>
+        <p>Zvýraznění slouží pro vyhledávání prvků dle logické struktury svazu. Konkrétní zvýraznění se aktivuje v menu <a href="#highlight">Highlight</a> a je-li aktivní, pracuje online s prvky, které uživatel vybere (při změně výběru se automaticky změní i označení).</p>
+        <p>Je-li v menu zapnutá volba <a href="#highlight-mouseover">Highlight-&gt;Highlight on mouseover</a> a některá z voleb <a href="#highlight">Highlight-&gt;Upper/Lower neighbors/cones</a>, jsou zvýrazněny horní/dolní sousedé/kužely uzlu, na který uživatel najede myší. Toto zvýraznění však slouží pouze pro vizuální orientaci uživatele, pro další práci je třeba použít normální zvýraznění, které se aktivuje označením uzlu.</p>
+        <h3>Posun prvků</h3>
+        <p>Uzly, tagy a názvy uzlů (jsou-li zobrazeny vně uzlu), je možné volně posouvat po pracovní ploše a to jak jednotlivě, tak hromadně (posunou se všechny označené).<br />Uzly samozřejmě není možné posunout tak, aby jejich poloha byla v rozporu s definicí Hasseova diagramu (tzn. nad větší nebo pod menší sousedy).</p>
+        <h3>Kontextové menu</h3>
+        <p>Nad všemi prvky je možné vyvolat pravým tlačítkem kontextové menu umožňující nastavení vlastností a vzhledu prvků (jednoho, nad kterým je kurzor, případně skupiny, je-li označeno více prvků a menu vyvoláno nad jedním z nich) a vizuální či textové vyhledávání.<br />Všechny zmíněné funkce budou podrobně popsány v kapitole <a href="#main-menu">Hlavní menu</a>.</p>
+        <h3>Dvojklik</h3>
+        <p>Dvojklikem na prvek dojde k vyvolání dialogu pro nastavení jeho vlastností.</p>
+        <h2 id="main-menu">Hlavní menu</h2>
+        <h3>File</h3>
+        <p>Funkce pro obecnou práci se souborem.</p>
+        <h4>Open…</h4>
+        <p>Zobrazí dialog pro výběr a otevření nového souboru. Kromě souborů v nativním formátu (.jlat) je možné otevřít i soubory ve formátu LatVis (.lat). Je-li již nějaký soubor otevřen, otevře se nový soubor v novém okně.</p>
+        <h4>Close</h4>
+        <p>Zavře aktuálně otevřený soubor.</p>
+        <h4>Save</h4>
+        <p>Uloží aktuální podobu diagramu do souboru, ze kterého byl otevřen.</p>
+        <h4>Save as…</h4>
+        <p>Otevře dialog pro výběr souboru a uloží diagram do zvoleného souboru.</p>
+        <h4>Export…</h4>
+        <p>Otevře dialog pro výběr souboru a exportuje do zvoleného souboru diagram ve vybraném formátu. Podporované formáty jsou JPG, PNG, GIF, BMP, PDF, SVG a Metapost.</p>
+        <h4>Exit</h4>
+        <p>Zavře aktuální okno programu.</p>
+        <h3>Edit</h3>
+        <p>Funkce pro editaci svazu.</p>
+        <h4>Undo</h4>
+        <p>Vrátí poslední provedenou změnu.</p>
+        <h4>Redo</h4>
+        <p>Znovu provede poslední vrácenou změnu.</p>
+        <h4>Restore</h4>
+        <p>Obnoví původní podobu diagramu (vrátí všechny provedené změny).</p>
+        <h4>Draw lattice…</h4>
+        <p>Otevře dialog pro spuštění externího programu na kreslení svazu.<br />Program, který se má spustit, je možné zvolit třemi způsoby:</p>
+        <ol>
+            <li>Výběrem ze seznamu programů. Do seznamu jsou načteny programy umístěné ve složce ./ext/drawing-tools/ relativně vůči JLatVis.jar, ze kterého byl program spuštěn, a které jsou schopné s aplikací komunikovat. Kliknutím na tlačítko „Drawing tool help“ lze zobrazit dialog s nápovědou k programu.</li>
+            <li>Ručním zadáním příkazu (či cesty k souboru) do textového pole Command.</li>
+            <li>Vybráním libovolného souboru na disku po kliknutí na tlačítko Choose file.</li>
+        </ol>
+        <p>Po zvolení programu a potvrzení dialogu jsou programu předány informace o struktuře svazu, spouštěný program vrátí nakreslený diagram (nové rozmístění vrcholů) a tento je následně použit pro nakreslení diagramu.</p>
+        <h3>View</h3>
+        <p>Funkce týkající se zobrazení – zoomování a skrývání/zobrazování objektů.</p>
+        <h4>Zoom in</h4>
+        <p>Přiblíží zobrazený diagram.</p>
+        <h4>Zoom out</h4>
+        <p>Oddálí zobrazený diagram.</p>
+        <h4>Originál size</h4>
+        <p>Nastaví velikost diagramu na normální (původní) velikost.</p>
+        <h4>Zoom lattice to window</h4>
+        <p>Zvětší či zmenší diagram tak, aby jeho velikost co nejvíce odpovídala velikosti okna programu.</p>
+        <h4>Resize lattice to window</h4>
+        <p>Roztáhne či stáhne diagram vertikálně a horizontálně tak, aby jeho velikost co nejvíce odpovídala velikosti okna programu. Na rozdíl od funkce Zoom lattice to window nemění velikost prvků (zoom), ale proporce diagramu. Střed transformace je ve středu diagramu.</p>
+        <h4>Resize window to lattice</h4>
+        <p>Zmenší či zvětší velikost okna programu tak, aby co nejlépe odpovídalo velikosti diagramu.</p>
+        <h4>Zoom selection to window</h4>
+        <p>Při zaškrtnutí této volby se část kreslící plochy označená myší (kliknutím a tažením) zvětší tak, aby její velikost co nejvíce odpovídala velikosti okna programu. Tzn. vybraná oblast se „přizoomuje“ na velikost okna.<br />Jelikož tato funkce využívá označování myší, je v okamžiku, kdy je aktivována, deaktivována funkce volného výběru.</p>
+        <h4><br />Hide selected</h4>
+        <p>Volby z tohoto menu skryjí vybrané objekty příslušného typu. Skryté objekty se v diagramu nezobrazují a v případě uzlů se nezobrazují ani objekty s nimi přímo související – tagy a sousední hrany.<br />Jsou-li skryté objekty nalezeny při vyhledávání, zobrazí se poloprůhledně.</p>
+        <h5>All objects</h5>
+        <p>Skryje všechny vybrané objekty (všech typů).</p>
+        <h5>Nodes</h5>
+        <p>Skryje vybrané uzly.</p>
+        <h5>Tags</h5>
+        <p>Skryje vybrané tagy.</p>
+        <h4>Show hidden</h4>
+        <p>Volby z tohoto menu zobrazí objekty příslušného typu, které byly skryty volbami z menu Hide selected.</p>
+        <h5>All objects</h5>
+        <p>Zobrazí všechny skryté objekty (všech typů).</p>
+        <h5>Nodes</h5>
+        <p>Zobrazí skryté uzly.</p>
+        <h5>Tags</h5>
+        <p>Zorazí skryté tagy.</p>
+        <p> </p>
+        <h3>Selection</h3>
+        <p>Funkce pro práci s výběrem a jeho upravování.</p>
+        <h4>Nodes</h4>
+        <h5>Select none</h5>
+        <p>Zruší označení všech uzlů.</p>
+        <h5>Invert selection</h5>
+        <p>Invertuje označení všech uzlů (neoznačené jsou označeny a naopak).</p>
+        <h5>Select all</h5>
+        <p>Vybere všechny uzly.</p>
+        <h5>Select related</h5>
+        <h6>Edges between nodes</h6>
+        <p>Přidá k výběru všechny hrany, jejichž oba koncové uzly jsou součástí výběru.</p>
+        <h6>Node's tags</h6>
+        <p>Přidá k výběru tagy všech vybraných uzlů.</p>
+        <h4>Edges</h4>
+        <h5>Select none</h5>
+        <p>Zruší označení všech hran.</p>
+        <h5>Invert selection</h5>
+        <p>Invertuje označení všech hran (neoznačené jsou označeny a naopak).</p>
+        <h5>Select all</h5>
+        <p>Vybere všechny hrany.</p>
+        <h5>Select related nodes</h5>
+        <p>Přidá k výběru všechny uzly sousedící s nějakou z vybraných hran.</p>
+        <h4>Tags</h4>
+        <h5>Select none</h5>
+        <p>Zruší označení všech tagů.</p>
+        <h5>Invert selection</h5>
+        <p>Invertuje označení všech tagů (neoznačené jsou označeny a naopak).</p>
+        <h5>Select all</h5>
+        <p>Vybere všechny tagy.</p>
+        <h5>Select related nodes</h5>
+        <p>Přidá k výběru všechny uzly patřící k vybraným tagům.</p>
+        <h4>All objects</h4>
+        <h5>Select none</h5>
+        <p>Zruší označení všech objektů.</p>
+        <h5>Invert selection</h5>
+        <p>Invertuje označení všech objektů (neoznačené jsou označeny a naopak).</p>
+        <h5>Select all</h5>
+        <p>Vybere všechny objekty.</p>
+        <h5>Select related</h5>
+        <p>Přidá k výběru všechny související objekty (sjednocení všech množin výše uvedených souvisejících objektů).</p>
+        <h4>Save selection...</h4>
+        <p>Uloží aktuální výběr pod uživatelem zadaným názvem.</p>
+        <h4>Load selection...</h4>
+        <p>Zobrazí dialog se seznamem uložených výběrů. Kliknutím na název výběru se výběr zobrazí v diagramu (jsou označeny prvky označené ve výběru a naopak). Uložené výběry je možné mazat tlačítkem Delete.</p>
+        <h4 id="free-selection">Free selection...</h4>
+        <p>Zobrazí dialog, ve kterém lze nastavit, které objekty se mají označit při použití volného výběru. Výchozí nastavení je označování uzlů, lze však nastavit libovolnou kombinaci uzlů, hran a tagů.<br />Samozřejmě funguje vícenásobný výběr s klávesou Ctrl.</p>
+        <h3>Search</h3>
+        <p>Funkce pro vyhledávání objektů dle jejich vzhledu či textů a pro práci s výsledky vyhledávání.<br />Nalezené prvky jsou zvýrazněny a lze s nimi dále pracovat pomocí submenu Found.</p>
+        <h4>Text</h4>
+        <p>Textové vyhledání objektů. Podporováno je obyčejné textové hledání (testuje se, zda text obsahuje zadaný řetězec), nebo s využitím POSIX regulárních výrazů.</p>
+        <h5>Nodes...</h5>
+        <p>Otevře dialog pro textové vyhledávání uzlů. Prohledávat lze názvy uzlů nebo názvy a text tagů uzlu.</p>
+        <h5>Tags...</h5>
+        <p>Otevře dialog pro textové vyhledávání tagů. Prohledávají se názvy a text tagů.</p>
+        <h4>Visual</h4>
+        <p>Vyhledávání prvků dle jejich vzhledu. Lze vyhledávat podle všech nastavitelných vlastností. Vlastnosti pro hledání nepodstatné lze označit zaškrtnutím volby Exclude.<br />Jsou-li při aktivaci funkce označené nějaké prvky příslušného typu, jsou hodnoty vlastností pro hledání nastaveny dle průniku vlastností vybraných prvků (vlastnosti, ve kterých se vybrané prvky shodují, jsou nastaveny na tuto hodnoty, ostatní jsou označeny volbou Exclude).<br />Možnosti vyhledávání viz níže v popisu funkcí menu <a href="#Settings">Settings </a>(volby pro hledání jsou stejné jako nastavení).</p>
+        <h5>Nodes...</h5>
+        <p>Vizuální vyhledávání uzlů.</p>
+        <h5>Tags...</h5>
+        <p>Vizuální vyhledávání tagů.</p>
+        <h5>Edges...</h5>
+        <p>Vizuální vyhledávání hran.</p>
+        <h4>Found</h4>
+        <p>Funkce pro práci s nalezenými prvky.</p>
+        <h5>Select</h5>
+        <p>Vybere nalezené prvky. Existující výběr je zrušen a místo něj jsou vybrány nalezené prvky.</p>
+        <h5>Add to selection</h5>
+        <p>Přidá nalezené prvky k aktuálnímu výběru.</p>
+        <h5>Remove from selection</h5>
+        <p>Odebere nalezené prvky z aktuálního výběru (jsou-li některé z nich vybrané).</p>
+        <h5>Remove highlight</h5>
+        <p>Zruší označení nalezených prvků.</p>
+        <h3 id="highlight">Highlight</h3>
+        <p>Funkce pro zvýraznění prvků na základě struktury svazu a práci s výsledkem tohoto zvýraznění.<br />Všechny funkce pracují s množinou aktuálně označených prvků (v následujícím popisu funkcí označena jen jako "množina") a jsou-li zapnuty, fungují real-time – při změně množiny označených prvků se podle toho automaticky změní i zvýraznění.</p>
+        <h4>Maximum</h4>
+        <p>Zvýrazní maximální uzel z množiny.</p>
+        <h4>Minimum</h4>
+        <p>Zvýrazní minimální uzel z množiny.</p>
+        <h4>Biggest</h4>
+        <p>Zvýrazní největší uzel z množiny.</p>
+        <h4>Smallest</h4>
+        <p>Zvýrazní nejmenší uzel z množiny.</p>
+        <h4>Upper neighbors</h4>
+        <p>Zvýrazní všechny prvky, které jsou většími sousedy některého z prvků množiny a zároveň do množiny nepatří.</p>
+        <h4>Lower neighbors</h4>
+        <p>Zvýrazní všechny prvky, které jsou menšími sousedy některého z prvků množiny a zároveň do množiny nepatří.</p>
+        <h4>Upper cone</h4>
+        <p>Zvýrazní prvky tvořící dolní kužel množiny.</p>
+        <h4>Lower cone</h4>
+        <p>Zvýrazní prvky tvořící horní kužel množiny.</p>
+        <h4>Supremum</h4>
+        <p>Zvýrazní supremum množiny.</p>
+        <h4>Infimum</h4>
+        <p>Zvýrazní infimum množiny.</p>
+        <h4>Paths...</h4>
+        <p>Vyhledá cesty mezi všemi dvojicemi uzlů v množině. Seznam všech nalezených cest je zobrazen v dialogu a kliknutím na cestu se tato zvýrazní v diagramu.</p>
+        <h4 id="highlight-mouseover">Highlight on mouseover</h4>
+        <p>Lze zapnout je-li aktivní některá z voleb upper/lower neighbors/cone a aktivuje zvýrazňování uzlů odpovídajících této volbě při najetí myší nad uzel. Pro zvýraznění je použit jiný typ zvýraznění, které je jen vizuální a nelze s ním dále pracovat. Zobrazení tohoto zvýraznění se nevylučuje s normálním zvýrazněním, které funguje paralelně, takže jej lze aktivovat normálně označením prvků.</p>
+        <h4>Highlighted</h4>
+        <p>Funkce pro práci se zvýrazněnými prvky.</p>
+        <h5>Select</h5>
+        <p>Vybere zvýrazněné uzly. Existující výběr je zrušen a místo něj jsou vybrány zvýrazněné uzly.</p>
+        <h5>Add to selection</h5>
+        <p>Přidá zvýrazněné uzly k aktuálnímu výběru.</p>
+        <h5>Remove from selection</h5>
+        <p>Odebere zvýrazněné uzly z aktuálního výběru (jsou-li některé z nich vybrané).</p>
+        <h5>Remove highlight</h5>
+        <p>Zruší označení zvýrazněných uzlů.</p>
+        <h3 id="Settings">Settings</h3>
+        <p>Nastavení programu a vlastností prvků diagramu.</p>
+        <p>Nastavení vlastností (properties) umožňuje nastavit různé texty k objektům (názvy, poznámky atp.). Nastavení vždy pracuje s jedním právě vybraným uzlem, je-li jich vybráno víc, pracuje se s tím, který byl vybrán jako první. Hromadné nastavení není podporováno.</p>
+        <p>Nastavení vzhledu (Appearance) umožňuje nastavit vizuální vlastnosti (vzhled) příslušných prvků a to v maximálním možném rozsahu. Nastavení pracuje se všemi aktuálně vybranými prvky příslušného typu. Vlastnosti, které nejsou u všech vybraných uzlů stejné, jsou označeny volbou Exclude a při uložení nastavení budou zachovány jejich původní hodnoty (pokud volbu Exclude nezrušíte, pak se přepíší hodnotou zadanou v nastavení).</p>
+        <p>Většina objektů se skládá z několika jednodušší útvarů (např. hrana, okraj uzlu i okraj tagu jsou hrany), proto je nastavení těchto jednodušších útvarů využíváno v nastavení více objektů. Je to nastavení:</p>
+        <ul>
+            <li>linky – tloušťka, typ (plná, tečkovaná, čárkovaná a čerchovaná) a barva</li>
+            <li>tvaru – šířka, výška, úhel natočení a barva pozadí</li>
+            <li>textu – font, velikost fontu, barva, tučnost, kurzíva a podtržení</li>
+        </ul>
+        <p>Tato nastavení nebudou dále v popisu nastavení jednotlivých objektů podrobněji rozváděna.</p>
+        <h4>Lattice</h4>
+        <p>Obecné nastavení svazu.</p>
+        <h5>Appearance...</h5>
+        <p>Nastavení vzhledu svazu. Nastavit je možno pouze barvu pozadí diagramu.</p>
+        <h5>Properties...</h5>
+        <p>Nastavení názvu svazu a komentáře.</p>
+        <h4>Nodes</h4>
+        <h5>Appearance...</h5>
+        <p>Nastavení vzhledu uzlů. Lze nastavit následující vlastnosti:</p>
+        <ul>
+            <li>obecné nastavení
+            <ul>
+                <li>tvar uzlu (elipsa nebo pravidelný n-úhelník) a počet stran u n-úhelníku</li>
+                <li>zda se má zobrazit jméno uzlu</li>
+                <li>zda je uzel viditelný</li>
+                <li>vzhled jména uzlu
+                <ul>
+                    <li>obecné nastavení
+                    <ul>
+                        <li>zda je název vně uzlu</li>
+                        <li>vzdálenost od uzlu a úhel (lze změnit přetahováním názvu myší)</li>
+                        <li>zda půjde linka z uzlu do středu hrany nebo do rohu obdélníku s názvem</li>
+                        <li>vzdálenost začátku linky od uzlu</li>
+                        <li>minimální vzdálenost od uzlu, od které se zobrazí linka</li>
+                    </ul></li>
+                    <li>tvar (je-li vně uzlu)</li>
+                    <li>ohraničení (je-li vně uzlu)</li>
+                    <li>linka k uzlu (je-li vně uzlu)</li>
+                    <li>text</li>
+                </ul></li>
+            </ul></li>
+            <li>tvar</li>
+            <li>ohraničení</li>
+        </ul>
+        <h5>Properties...</h5>
+        <p>Nastavení názvu a komentáře uzlu.</p>
+        <h5>Tags...</h5>
+        <p>Nastavení tagů uzlu. Tagy je možné přidávat (vytvářet nové), mazat a nastavovat zda jsou viditelné (zobrazené v diagramu), či nikoliv.</p>
+        <h4>Tags</h4>
+        <h5>Appearance...</h5>
+        <p>Nastavení vzhledu tagů. Lze nastavit následující vlastnosti:</p>
+        <ul>
+            <li>obecné nastavení
+            <ul>
+                <li>vzdálenost od uzlu a úhel (lze změnit přetahováním názvu myší)</li>
+                <li>zda půjde linka z uzlu do středu nebo okraje tagu</li>
+                <li>vzdálenost začátku linky od uzlu</li>
+                <li>zda je tag zobrazen</li>
+            </ul></li>
+            <li>tvar</li>
+            <li>ohraničení</li>
+            <li>linka k uzlu</li>
+            <li>text</li>
+        </ul>
+        <h5>Properties...</h5>
+        <p>Nastavení názvu a textu tagu.</p>
+        <h4>Edges</h4>
+        <h5>Appearance...</h5>
+        <p>Nastavení vzhledu hran. Lze nastavit vzdálenost začátku hrany od uzlu a nastavení linky.</p>
+        <h5>Properties...</h5>
+        <p>Nastavení komentáře hrany.</p>
+        <h4><br />Guide lines...</h4>
+        <p>Nastavení vodících linek. Je možné nastavit jaký typ linek bude zobrazen, jak budou linky vypadat a v případě mřížky její vlastnosti (typ, rozteč atp.)<br />K dispozici jsou tři typy vodících linek:</p>
+        <ul>
+            <li>mřížka, která může mít podobu klasické mřížky, jednoduché mřížky skládající se pouze z linek vedoucích jedním směrem (kolmé jsou vynechány), nebo bodů nacházejících se v průsečících linek (bez zobrazení samotných linek). Lze nastavit rozteč linek a úhel natočení, takže síť může být např.úhlopříčná a obdélníkovitá.</li>
+            <li>paralelogram umožňující zarovnat vrchol do paralelogramu s okolními uzly</li>
+            <li>prodloužení hran umožňující zarovnat vrchol do jedné přímky s hranami vedoucími do sousedních uzlů, případně i zachovat stejnou rozteč mezi uzly</li>
+        </ul>
+        <p>Lze nastavit následující vlastnosti:</p>
+        <ul>
+            <li>general
+            <ul>
+                <li>zda budou vodící linky zobrazeny</li>
+                <li>zda budou zobrazena vodítka pro zarovnání do paralelogramu</li>
+                <li>zda budou zobrazena vodítka pro zarovnání na prodloužení hran</li>
+            </ul></li>
+            <li>grid – nastavení mřížky
+            <ul>
+                <li>jak bude mřížka zobrazena (linky, mřížka, průsečíky linek)</li>
+                <li>vzdálenost mezi vertikálními linkami</li>
+                <li>vzdálenost mezi horizontálními linkami</li>
+                <li>úhel natočení</li>
+                <li>vzdálenost, od které budou uzly přitahována (když bude vzdálenost středu posunovaného uzlu a vodítka menší nebo rovna této vzdálenosti, bude uzel přitáhnut na nejbližší bod příslušného vodítka)</li>
+            </ul></li>
+            <li>vzhled linek</li>
+        </ul>
+        <h3><br />Help</h3>
+        <p>Nápověda k programu</p>
+        <h4>About...</h4>
+        <p>Základní informace o programu.</p>
+        
+        <h2>Parametry příkazové řádky</h2>
+        <p>Při spouštění programu z příkazové řádky lze specifikovat následující parametry:</p>
+        <h3>Soubory k otevření</h3>
+        <p>Při spuštění programu můžete jako parametr zadat jeden, nebo více souborů, které se mají otevřít. Každý ze souborů bude otevřen v novém okně. Více souborů oddělujte mezerou.</p>
+        <p>Např. <em>java -jar JLatVis.jar C://svazy/svaz.jlat ./test.lat</em></p>
+        
+        <h3>Formát souborů</h3>
+        <p>Jsou-li zadány soubory k otevření, je možné explicitně stanovit jejich formát parametrem <em>--file-format=jlatvis</em> nebo <em>--file-format=latvis</em>. Všechny soubory pak budou interpretovány jako soubory ve formátu programu JLatVis nebo LatVis. Není-li formát specifikován, bude určen podle přípony souboru (.lat pro LatVis, cokoliv jiného pro JLatVis).</p>
+        
+        <h2>Internetové stránky programu</h2>
+        <p><a href="http://www.jlatvis.com"><strong>www.jlatvis.com</strong></a></p>
+        <p>Na webových stránkách programu najdete další informace o programu, informace o nových verzích, možnost stažení programu a doplňkových materiálů a další užitečné věci.</p>
+        </div>
+    </body>
+</html>

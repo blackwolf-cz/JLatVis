@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="1">
+<vertex>
+<x>-56</x>
+<y>-45</y>
+</vertex>
+</element>
+<element name="2">
+<vertex>
+<x>-20</x>
+<y>-46</y>
+</vertex>
+</element>
+<element name="3">
+<vertex dummy_id="1">
+<x>18</x>
+<y>-46</y>
+</vertex>
+</element>
+<element name="4">
+<vertex dummy_id="4">
+<x>57</x>
+<y>-46</y>
+</vertex>
+</element>
+<element name="5">
+<vertex dummy_id="6">
+<x>99</x>
+<y>-45</y>
+</vertex>
+</element>
+<element name="6">
+<vertex dummy_id="8">
+<x>-56</x>
+<y>1</y>
+</vertex>
+</element>
+<element name="7">
+<vertex dummy_id="13">
+<x>-2</x>
+<y>0</y>
+</vertex>
+</element>
+<element name="8">
+<vertex dummy_id="15">
+<x>38</x>
+<y>1</y>
+</vertex>
+</element>
+<element name="9">
+<vertex dummy_id="18">
+<x>114</x>
+<y>-1</y>
+</vertex>
+</element>
+<element name="10">
+<vertex>
+<x>-56</x>
+<y>51</y>
+</vertex>
+</element>
+<element name="11">
+<vertex dummy_id="22">
+<x>17</x>
+<y>50</y>
+</vertex>
+</element>
+<element name="12">
+<vertex dummy_id="2">
+<x>74</x>
+<y>51</y>
+</vertex>
+</element>
+<element name="13">
+<vertex>
+<x>114</x>
+<y>51</y>
+</vertex>
+</element>
+<element name="14">
+<vertex dummy_id="9">
+<x>-56</x>
+<y>104</y>
+</vertex>
+</element>
+<element name="15">
+<vertex dummy_id="11">
+<x>-1</x>
+<y>106</y>
+</vertex>
+</element>
+<element name="16">
+<vertex dummy_id="16">
+<x>43</x>
+<y>104</y>
+</vertex>
+</element>
+<element name="17">
+<vertex>
+<x>114</x>
+<y>104</y>
+</vertex>
+</element>
+<element name="18">
+<vertex>
+<x>-39</x>
+<y>158</y>
+</vertex>
+</element>
+<element name="19">
+<vertex dummy_id="23">
+<x>17</x>
+<y>158</y>
+</vertex>
+</element>
+<element name="20">
+<vertex dummy_id="19">
+<x>79</x>
+<y>157</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="1"/>
+<element name="6"/>
+</order>
+<order>
+<element name="2"/>
+<element name="6"/>
+</order>
+<order>
+<element name="2"/>
+<element name="7"/>
+</order>
+<order>
+<element name="3"/>
+<element name="7"/>
+</order>
+<order>
+<element name="3"/>
+<element name="8"/>
+</order>
+<order>
+<element name="5"/>
+<element name="9"/>
+</order>
+<order>
+<element name="6"/>
+<element name="10"/>
+</order>
+<order>
+<element name="7"/>
+<element name="11"/>
+</order>
+<order>
+<element name="8"/>
+<element name="11"/>
+</order>
+<order>
+<element name="8"/>
+<element name="12"/>
+</order>
+<order>
+<element name="9"/>
+<element name="13"/>
+</order>
+<order>
+<element name="10"/>
+<element name="14"/>
+</order>
+<order>
+<element name="10"/>
+<element name="15"/>
+</order>
+<order>
+<element name="11"/>
+<element name="15"/>
+</order>
+<order>
+<element name="11"/>
+<element name="16"/>
+</order>
+<order>
+<element name="12"/>
+<element name="15"/>
+</order>
+<order>
+<element name="13"/>
+<element name="16"/>
+</order>
+<order>
+<element name="13"/>
+<element name="17"/>
+</order>
+<order>
+<element name="14"/>
+<element name="18"/>
+</order>
+<order>
+<element name="14"/>
+<element name="19"/>
+</order>
+<order>
+<element name="15"/>
+<element name="19"/>
+</order>
+<order>
+<element name="16"/>
+<element name="18"/>
+</order>
+<order>
+<element name="16"/>
+<element name="20"/>
+</order>
+<order>
+<element name="17"/>
+<element name="19"/>
+</order>
+<order>
+<element name="17"/>
+<element name="20"/>
+</order>
+</orders>
+<diagram>
+<dummies>
+<dummy id="3">
+<x>62</x>
+<y>0</y>
+</dummy>
+<dummy id="5">
+<x>74</x>
+<y>0</y>
+</dummy>
+<dummy id="7">
+<x>86</x>
+<y>0</y>
+</dummy>
+<dummy id="10">
+<x>-72</x>
+<y>50</y>
+</dummy>
+<dummy id="12">
+<x>-28</x>
+<y>50</y>
+</dummy>
+<dummy id="14">
+<x>-12</x>
+<y>50</y>
+</dummy>
+<dummy id="17">
+<x>38</x>
+<y>50</y>
+</dummy>
+<dummy id="20">
+<x>94</x>
+<y>50</y>
+</dummy>
+<dummy id="21">
+<x>94</x>
+<y>104</y>
+</dummy>
+<dummy id="24">
+<x>21</x>
+<y>104</y>
+</dummy>
+</dummies>
+<edges>
+<edge>
+<dummy id="1"/>
+<dummy id="3"/>
+</edge>
+<edge>
+<dummy id="3"/>
+<dummy id="2"/>
+</edge>
+<edge>
+<dummy id="4"/>
+<dummy id="5"/>
+</edge>
+<edge>
+<dummy id="5"/>
+<dummy id="2"/>
+</edge>
+<edge>
+<dummy id="6"/>
+<dummy id="7"/>
+</edge>
+<edge>
+<dummy id="7"/>
+<dummy id="2"/>
+</edge>
+<edge>
+<dummy id="8"/>
+<dummy id="10"/>
+</edge>
+<edge>
+<dummy id="10"/>
+<dummy id="9"/>
+</edge>
+<edge>
+<dummy id="8"/>
+<dummy id="12"/>
+</edge>
+<edge>
+<dummy id="12"/>
+<dummy id="11"/>
+</edge>
+<edge>
+<dummy id="13"/>
+<dummy id="14"/>
+</edge>
+<edge>
+<dummy id="14"/>
+<dummy id="9"/>
+</edge>
+<edge>
+<dummy id="15"/>
+<dummy id="17"/>
+</edge>
+<edge>
+<dummy id="17"/>
+<dummy id="16"/>
+</edge>
+<edge>
+<dummy id="18"/>
+<dummy id="20"/>
+</edge>
+<edge>
+<dummy id="20"/>
+<dummy id="21"/>
+</edge>
+<edge>
+<dummy id="21"/>
+<dummy id="19"/>
+</edge>
+<edge>
+<dummy id="22"/>
+<dummy id="24"/>
+</edge>
+<edge>
+<dummy id="24"/>
+<dummy id="23"/>
+</edge>
+</edges>
+</diagram>
+</ordered_set>

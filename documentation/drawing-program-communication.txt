@@ -1,0 +1,66 @@
+Zpùsob komunikace
+
+Veškerá komunikace probíhá pøes standardní vstup a výstup ve formì
+èistého textu v kódování UTF-8.
+Po vykonání pøíslušné úlohy se externí program musí sám ukonèit.
+
+
+Zjištìní názvu programu
+
+Po spuštìní s parametrem -v musí program vrátit svoje jméno, které
+bude zobrazeno v seznamu dostupných programù.
+
+
+Poskytnutí nápovìdy
+
+Po spuštìní s parametrem -h program vrací textovou nápovìdu
+(napø. s dostupnými parametry atp.). Vrácená hodnota bude zobrazena
+v oknì po kliknutí na tlaèítko pro vyvolání nápovìdy.
+Podpora není povinná, ale po zavolání s tímto parametrem se program
+musí ukonèit i když nápovìdu neposkytuje.
+
+
+Generování diagramu
+
+Program je zavolán bez parametrù a na standardní vstup dostane
+strukturu diagramu ve formátu specifikovaném níže. Po vygenerování
+diagramu vrátí pozice prvkù na standardní výstup ve formátu
+specifikovaném níže.
+
+Pro generování lze použít i program, který nepodporuje volání
+s parametrem -h a -v, jen je potøeba ruènì zadat cestu k nìmu
+(nebude zobrazen v seznamu i když bude umístìn ve správné složce).
+
+Vstup: co øádek to prvek svazu, na øádku (nepovinnì) jméno prvku
+v uvozovkách a seznam èísel menších prvkù/øádkù (poèítáno od 1),
+oddìlené mezerami, napø. "kostka" (Boolova algebra s 8 prvky):
+
+"a" 2 3 4
+"b" 5 6
+"c" 5 7
+"d" 6 7
+"e" 8
+"f" 8
+"g" 8
+"h"
+
+Vstup jde naèíst i ze souboru, jehož jméno je zadané jako parametr
+na pøíkazové øádce (zatím nepoužito, rezervováno pro pozdìjší využití).
+
+Výstup: co øádek to prvek, na røádku (nepovinnì, pokud není na vstupu,
+není ani na výstupu, v tom pøípadì jsou prvky/øádky ve stejném poøadí
+jako na vstupu) jméno prvku v uvozovkách a dvojice (celoèíselných)
+souøadnic x a y, napø. pro "kostku"
+
+"a" 0 0
+"b" -60 -60
+"c" 60 -60
+"d" 0 -60
+"e" 0 -120
+"f" -60 -120
+"g" 60 -120
+"h" 0 -180
+
+Støed souøadného systému mùže být v libovolném bodì a diagram mùže být
+libovolnì posunutý èi zrcadlovì pøevrácený, transformaci souøadnic
+do správného formátu provede JLatVis.

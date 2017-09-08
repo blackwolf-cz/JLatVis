@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<ordered_set data_type="array">
+<elements>
+<element name="1">
+<vertex>
+<x>-12</x>
+<y>-28</y>
+</vertex>
+</element>
+<element name="4">
+<vertex>
+<x>-12</x>
+<y>-70</y>
+</vertex>
+</element>
+<element name="3">
+<vertex>
+<x>-51</x>
+<y>-67</y>
+</vertex>
+</element>
+<element name="2">
+<vertex>
+<x>-92</x>
+<y>-68</y>
+</vertex>
+</element>
+<element name="5">
+<vertex>
+<x>29</x>
+<y>-69</y>
+</vertex>
+</element>
+<element name="6">
+<vertex>
+<x>76</x>
+<y>-72</y>
+</vertex>
+</element>
+<element name="7">
+<vertex>
+<x>-136</x>
+<y>-110</y>
+</vertex>
+</element>
+<element name="8">
+<vertex>
+<x>-51</x>
+<y>-109</y>
+</vertex>
+</element>
+<element name="9">
+<vertex>
+<x>35</x>
+<y>-112</y>
+</vertex>
+</element>
+<element name="10">
+<vertex>
+<x>118</x>
+<y>-114</y>
+</vertex>
+</element>
+<element name="11">
+<vertex>
+<x>-185</x>
+<y>-159</y>
+</vertex>
+</element>
+<element name="12">
+<vertex>
+<x>-136</x>
+<y>-158</y>
+</vertex>
+</element>
+<element name="13">
+<vertex>
+<x>-137</x>
+<y>-207</y>
+</vertex>
+</element>
+<element name="0">
+<vertex>
+<x>-13</x>
+<y>-256</y>
+</vertex>
+</element>
+</elements>
+<orders>
+<order>
+<element name="4"/>
+<element name="1"/>
+</order>
+<order>
+<element name="3"/>
+<element name="1"/>
+</order>
+<order>
+<element name="2"/>
+<element name="1"/>
+</order>
+<order>
+<element name="5"/>
+<element name="1"/>
+</order>
+<order>
+<element name="6"/>
+<element name="1"/>
+</order>
+<order>
+<element name="7"/>
+<element name="2"/>
+</order>
+<order>
+<element name="8"/>
+<element name="2"/>
+</order>
+<order>
+<element name="8"/>
+<element name="5"/>
+</order>
+<order>
+<element name="9"/>
+<element name="3"/>
+</order>
+<order>
+<element name="9"/>
+<element name="6"/>
+</order>
+<order>
+<element name="10"/>
+<element name="4"/>
+</order>
+<order>
+<element name="10"/>
+<element name="5"/>
+</order>
+<order>
+<element name="10"/>
+<element name="6"/>
+</order>
+<order>
+<element name="11"/>
+<element name="3"/>
+</order>
+<order>
+<element name="11"/>
+<element name="7"/>
+</order>
+<order>
+<element name="12"/>
+<element name="4"/>
+</order>
+<order>
+<element name="12"/>
+<element name="7"/>
+</order>
+<order>
+<element name="13"/>
+<element name="11"/>
+</order>
+<order>
+<element name="0"/>
+<element name="8"/>
+</order>
+<order>
+<element name="0"/>
+<element name="9"/>
+</order>
+<order>
+<element name="0"/>
+<element name="10"/>
+</order>
+<order>
+<element name="0"/>
+<element name="12"/>
+</order>
+<order>
+<element name="0"/>
+<element name="13"/>
+</order>
+</orders>
+</ordered_set>

@@ -1,0 +1,76 @@
+start = element Latvis {
+   attribute version { "2.0" } &
+   element Lattices {
+      name? &
+      Lattice+ &
+      Comment?
+   }* &
+   ## obsah specificky pro aplikaci, napr. info o vzhledu vrcholu/hran, vyberech
+   element AppSpecificData { }?
+}
+
+Lattice = element Lattice {
+   name? &
+   (
+      element Elements {
+         element Element {
+            ## interni identifikator prvku
+            attribute id { xsd:integer } &
+            name? &
+            Comment? &
+            Tag*
+         }+
+      }?,
+      element Order {
+         element Pair {
+            ## id mensiho a vetsiho prvku
+            attribute less { xsd:integer } &
+            attribute greater { xsd:integer } &
+            Comment? &
+            Tag*
+         }+
+      }?
+   ) &
+   Comment? &
+   element Diagram {
+      name? &
+      (
+         element Verteces {
+            element Vertex {
+               (
+                  ## id prvku
+                  attribute id { xsd:integer }
+               ) &
+               (
+                  element x { xsd:integer },
+                  element y { xsd:integer }
+               ) &
+               Style?
+            }+
+         }?,
+         element Edges {
+            element Edge {
+               (
+                  ## id prvku
+                  attribute from { xsd:integer },
+                  attribute to { xsd:integer }
+               ) &
+               Style?
+            }+
+         }?
+      ) &
+      Comment? &
+      Style?
+   }*
+}
+
+name = attribute name { text }
+
+Comment = element Comment { text }
+
+## textova data aplikaci domeny svazu, napr. konceptualniho svazu,
+## zobrazeno jako popisek vrcholu
+Tag = element Tag { name & text }
+
+## visalni informace k diagramu, konkretni obsah viz priklady
+Style = element Style { }
